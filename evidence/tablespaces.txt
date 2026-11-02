@@ -1,0 +1,6 @@
+  spcname   | emplacement 
+------------+-------------
+ pg_default | 
+ pg_global  | 
+(2 rows)
+

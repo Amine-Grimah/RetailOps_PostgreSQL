@@ -1,0 +1,35 @@
+ channel | chiffre_affaires 
+---------+------------------
+ store   |       1406946.03
+ mobile  |       1368970.13
+ web     |       1320834.98
+(3 rows)
+
+ product_id |        label        | quantite_vendue | chiffre_affaires 
+------------+---------------------+-----------------+------------------
+         21 | Produit de test 021 |             376 |         41235.92
+         62 | Produit de test 062 |             367 |         99251.48
+         58 | Produit de test 058 |             361 |          3855.48
+          3 | Produit de test 003 |             361 |        122101.03
+         61 | Produit de test 061 |             358 |         56510.30
+          1 | Produit de test 001 |             354 |        104631.78
+         59 | Produit de test 059 |             350 |         72275.00
+         27 | Produit de test 027 |             348 |         61505.52
+         80 | Produit de test 080 |             348 |         19129.56
+         66 | Produit de test 066 |             343 |         82752.18
+(10 rows)
+
+ customer_id |     full_name      | nombre_commandes 
+-------------+--------------------+------------------
+         122 | Client fictif 0122 |               30
+          83 | Client fictif 0083 |               29
+         232 | Client fictif 0232 |               29
+          63 | Client fictif 0063 |               28
+         186 | Client fictif 0186 |               28
+         142 | Client fictif 0142 |               27
+         231 | Client fictif 0231 |               26
+         271 | Client fictif 0271 |               26
+         235 | Client fictif 0235 |               26
+          51 | Client fictif 0051 |               25
+(10 rows)
+

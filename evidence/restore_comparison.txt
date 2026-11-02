@@ -1,0 +1,18 @@
+===== retail_admin =====
+ table_name  | count 
+-------------+-------
+ customers   |   300
+ products    |    80
+ orders      |  5000
+ order_items |  9989
+(4 rows)
+
+===== retail_restore_check =====
+ table_name  | count 
+-------------+-------
+ customers   |   300
+ products    |    80
+ orders      |  5000
+ order_items |  9989
+(4 rows)
+

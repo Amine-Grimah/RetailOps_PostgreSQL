@@ -1,0 +1,26 @@
+INFO:  vacuuming "retail_admin.retail.customers"
+INFO:  finished vacuuming "retail_admin.retail.customers": index scans: 0
+pages: 0 removed, 4 remain, 4 scanned (100.00% of total)
+tuples: 0 removed, 300 remain, 0 are dead but not yet removable
+removable cutoff: 787, which was 0 XIDs old when operation ended
+frozen: 0 pages from table (0.00% of total) had 0 tuples frozen
+index scan not needed: 0 pages from table (0.00% of total) had 0 dead item identifiers removed
+avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+buffer usage: 51 hits, 0 misses, 0 dirtied
+WAL usage: 0 records, 0 full page images, 0 bytes
+system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+INFO:  vacuuming "retail_admin.pg_toast.pg_toast_16390"
+INFO:  finished vacuuming "retail_admin.pg_toast.pg_toast_16390": index scans: 0
+pages: 0 removed, 0 remain, 0 scanned (100.00% of total)
+tuples: 0 removed, 0 remain, 0 are dead but not yet removable
+removable cutoff: 787, which was 0 XIDs old when operation ended
+new relfrozenxid: 787, which is 1 XIDs ahead of previous value
+frozen: 0 pages from table (100.00% of total) had 0 tuples frozen
+index scan not needed: 0 pages from table (100.00% of total) had 0 dead item identifiers removed
+avg read rate: 0.000 MB/s, avg write rate: 0.000 MB/s
+buffer usage: 28 hits, 0 misses, 0 dirtied
+WAL usage: 1 records, 0 full page images, 188 bytes
+system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+INFO:  analyzing "retail.customers"
+INFO:  "customers": scanned 4 of 4 pages, containing 300 live rows and 0 dead rows; 300 rows in sample, 300 estimated total rows
+VACUUM

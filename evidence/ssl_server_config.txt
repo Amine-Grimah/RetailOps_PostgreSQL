@@ -1,0 +1,15 @@
+ ssl 
+-----
+ on
+(1 row)
+
+              ssl_cert_file              
+-----------------------------------------
+ /var/lib/postgresql/data/ssl/server.crt
+(1 row)
+
+              ssl_key_file               
+-----------------------------------------
+ /var/lib/postgresql/data/ssl/server.key
+(1 row)
+

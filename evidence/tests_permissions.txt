@@ -1,0 +1,14 @@
+RETAILOPS - TESTS DES PERMISSIONS
+
+1. app_login - INSERT dans retail.orders
+Résultat : INSERT 0 1
+Transaction annulée avec ROLLBACK.
+Conclusion : écriture autorisée.
+
+2. app_login - UPDATE dans retail.customers
+Résultat : ERROR: permission denied for table customers
+Conclusion : écriture refusée.
+
+3. analyst_login - UPDATE dans retail.orders
+Résultat : ERROR: permission denied for table orders
+Conclusion : écriture refusée.

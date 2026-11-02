@@ -1,0 +1,35 @@
+ table_name  | total 
+-------------+-------
+ customers   |   300
+ products    |    80
+ orders      |  5000
+ order_items |  9989
+(4 rows)
+
+ table_name  | duplicate_groups 
+-------------+------------------
+ customers   |                0
+ products    |                0
+ orders      |                0
+ order_items |                0
+(4 rows)
+
+ email | occurrences 
+-------+-------------
+(0 rows)
+
+ orders_without_customer 
+-------------------------
+                       0
+(1 row)
+
+ items_without_order 
+---------------------
+                   0
+(1 row)
+
+ items_without_product 
+-----------------------
+                     0
+(1 row)
+
